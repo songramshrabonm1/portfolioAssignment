@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.navImage > img{
+    max-width: 100px;
+}
+
+.profileImage{
+    width: 100%;
+    max-width: 550px;
+    max-height: 750px;
+
+}
+.carousel-item >img{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+.carouselPic > img{
+    top: 0px;
+    left: 0px;
+    height: 700px;
+    width: 100%;
+    object-fit: contain;
+}
+.caroselPicImage > img{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+
+.box{
+    width: 100%;
+    margin: 0px auto;
+    max-width: 665px;
+    height: 364px;
+    border: 1px solid #111111;
+    box-shadow: 5px 10px 10px rgb(150, 143, 143);
+}
+@media screen and (max-width: 576px) {
+    
+    .HeaderSectionIcon{
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+
+        /* gap: 5px   ; */
+    }
+    .QualificationBtn{
+        flex-direction: column;
+        margin-top: 5px;
+    }
+}
